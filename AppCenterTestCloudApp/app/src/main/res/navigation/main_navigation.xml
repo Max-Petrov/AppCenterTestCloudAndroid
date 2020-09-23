@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/navigation_tasks_list">
+
+    <fragment
+        android:id="@+id/navigation_tasks_list"
+        android:name="com.example.appcentertestcloudapp.ui.TasksFragment">
+        <action
+            android:id="@+id/actionTasksToTaskDetails"
+            app:destination="@id/navigation_tasks_details" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_tasks_details"
+        android:name="com.example.appcentertestcloudapp.ui.TaskDetailsFragment">
+        <argument
+            android:name="taskId"
+            android:defaultValue="-1"
+            app:argType="string" />
+    </fragment>
+</navigation>
