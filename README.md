@@ -17,7 +17,7 @@ Steps:
   * Configured the following device set: Motorolla One Zoom (Android 10) and Huawei P10 (Android 7)
   * Selected 'master' test series
   * Selected 'Espresso' as a testing framework
-  * Copy command from the site and run it via the terminal:
+  * Copy command from the site and run it in the terminal:
     Command: "appcenter test run espresso --app "max.petrov.96-outlook.com/AppCenterTestCloudAndroid" --devices 3d223f9b --app-path app/build/outputs/apk/debug/app-debug.apk --test-series "master" --locale "en_US" --build-dir app/build/outputs/apk/androidTest/debug"
   * Waited until all tests were successfully passed (can be monitored from both the terminal and the site).
     * Waited untill validation steps were successfully passed
