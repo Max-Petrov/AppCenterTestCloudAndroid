@@ -1,5 +1,10 @@
 # AppCenterTestCloudAndroid
 
+Application desciption:
+It is the simple TODO application. The app has two screens - List of tasks and Task Details.
+If the user clicks on some task item then the app will navigate to the Details page from where this task can be changed.
+After some changes the user needs to click on the 'save' button to apply changes.
+
 Steps:
 
 * Registered an account on AppCenter
@@ -22,3 +27,14 @@ Steps:
   * Waited until all tests were successfully passed (can be monitored from both the terminal and the site).
     * Waited until validation is successfully passed (Current test status: Validating)
     * Waited for the devices to free up (Current test status: Validation completed. Waiting for devices)
+
+Screenshots:
+1. Build on AppCenter
+![Image of AppCenter Build](https://github.com/Max-Petrov/AppCenterTestCloudAndroid/blob/master/Screenshots/Successful%20builds.png)
+2. Run commands in the terminal
+![Image of terminal commands](https://github.com/Max-Petrov/AppCenterTestCloudAndroid/blob/master/Screenshots/Run%20commands.png)
+3. Test run on AppCenter
+![Image of terminal commands](https://github.com/Max-Petrov/AppCenterTestCloudAndroid/blob/master/Screenshots/Running%20tests.png)
+4. App screenshots
+![Image of terminal commands](https://github.com/Max-Petrov/AppCenterTestCloudAndroid/blob/master/Screenshots/TaskListScreen.png)
+![Image of terminal commands](https://github.com/Max-Petrov/AppCenterTestCloudAndroid/blob/master/Screenshots/TaskDetailsScreen.png)
