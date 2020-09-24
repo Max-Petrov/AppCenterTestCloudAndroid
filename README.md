@@ -29,6 +29,8 @@ Steps:
     * Waited for the devices to free up (Current test status: Validation completed. Waiting for devices)
     * Analyzed the result of the test run
 
+Link to the test run: https://appcenter.ms/users/max.petrov.96-outlook.com/apps/AppCenterTestCloudAndroid/test/series/master/runs/381d4615-a63c-4a33-ac36-53f9cbdf535f
+
 Screenshots:
 1. Build on AppCenter
 ![Image of AppCenter Build](https://github.com/Max-Petrov/AppCenterTestCloudAndroid/blob/master/Screenshots/Successful%20builds.png)
