@@ -27,6 +27,7 @@ Steps:
   * Waited until all tests were successfully passed (can be monitored from both the terminal and the site).
     * Waited until validation is successfully passed (Current test status: Validating)
     * Waited for the devices to free up (Current test status: Validation completed. Waiting for devices)
+    * Analyzed the result of the test run
 
 Screenshots:
 1. Build on AppCenter
@@ -35,6 +36,8 @@ Screenshots:
 ![Image of terminal commands](https://github.com/Max-Petrov/AppCenterTestCloudAndroid/blob/master/Screenshots/Run%20commands.png)
 3. Test run on AppCenter
 ![Image of terminal commands](https://github.com/Max-Petrov/AppCenterTestCloudAndroid/blob/master/Screenshots/Running%20tests.png)
-4. App screenshots
+4. Tests were successfully passed
+![Image of terminal commands](https://github.com/Max-Petrov/AppCenterTestCloudAndroid/blob/master/Screenshots/Successful%20test%20run.png)
+5. App screenshots
 ![Image of terminal commands](https://github.com/Max-Petrov/AppCenterTestCloudAndroid/blob/master/Screenshots/TaskListScreen.png)
 ![Image of terminal commands](https://github.com/Max-Petrov/AppCenterTestCloudAndroid/blob/master/Screenshots/TaskDetailsScreen.png)
